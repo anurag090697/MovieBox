@@ -37,10 +37,14 @@ nav img{
   border-radius: 15px;
   margin: 2rem 0;
   position: relative;
-  
+  padding-bottom: 3rem;
+}
+.fulldisc h1{
+  color: rgb(200, 173, 0);
 }
 .fulldisc {
 width: 100%;
+margin-bottom: 2rem;
 }
 .movielogo{
   width: 200px;
@@ -65,4 +69,24 @@ height: 400px; */
 }
 .movieCard p{
   font-size: 25px;
+}
+.icons{
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 30px;
+  
+}
+.heartred:hover{
+  color: red;
+}
+.shareblue:hover{
+  color: blue;
+}
+.cmntyellow:hover{
+  color: rgb(255, 119, 0);
 }

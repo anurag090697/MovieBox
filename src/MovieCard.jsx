@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 let MovieCard = ( props ) =>{
     return(
@@ -21,7 +22,11 @@ let MovieCard = ( props ) =>{
             <div>
                 <img src={props.banner} alt="" className="banner"/>
             </div>
-           
+           <div className="icons">
+                <FontAwesomeIcon icon="heart" className='heartred'/>
+                <FontAwesomeIcon icon="share-nodes" className='shareblue' />
+                <FontAwesomeIcon icon="message" className='cmntyellow'/>
+            </div>
         </div>
     );
 };
